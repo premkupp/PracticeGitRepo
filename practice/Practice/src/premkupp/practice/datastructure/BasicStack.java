@@ -35,8 +35,19 @@ public class BasicStack<X> implements BasicStackInterface<X>
 	  return found;
   }
   
-  public X access(X x)
+  public X access(X accessItem)
   {
+	  X tempItem;
+	  while(this.size()>0)
+	  {
+		  tempItem = this.pop();
+		  if (tempItem.equals(accessItem)) return tempItem;
+	  }
     return null;
+  }
+  
+  public int size()
+  {
+	  return this.StackPointer;
   }
 }
