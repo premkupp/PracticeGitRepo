@@ -1,4 +1,4 @@
-package practice;
+package premkupp.practice.general;
 
 import java.io.PrintStream;
 

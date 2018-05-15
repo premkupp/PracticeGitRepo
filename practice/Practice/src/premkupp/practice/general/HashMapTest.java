@@ -1,4 +1,4 @@
-package practice;
+package premkupp.practice.general;
 
 public class HashMapTest
 {

@@ -5,4 +5,4 @@
  * @author mycomputer
  *
  */
-package practice;
+package premkupp.practice.general;
