@@ -23,7 +23,16 @@ public class BasicStack<X> implements BasicStackInterface<X>
   
   public boolean contains(X x)
   {
-    return false;
+	  boolean found=false;
+	  for(int i=0; i<this.StackPointer; i++)
+	  {
+		  if(data[i].equals(x))
+		  {
+			  found=true;
+			  break;
+		  }
+	  }
+	  return found;
   }
   
   public X access(X x)
