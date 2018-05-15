@@ -1,4 +1,4 @@
-package practice;
+package premkupp.practice.datastructure;
 
 import java.io.PrintStream;
 

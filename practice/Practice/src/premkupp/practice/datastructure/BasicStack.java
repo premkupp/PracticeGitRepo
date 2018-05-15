@@ -1,4 +1,4 @@
-package practice;
+package premkupp.practice.datastructure;
 
 public class BasicStack<X> implements BasicStackInterface<X>
 {

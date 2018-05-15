@@ -1,4 +1,4 @@
-package practice;
+package premkupp.practice.datastructure;
 
 public interface BasicStackInterface<X>
 {
