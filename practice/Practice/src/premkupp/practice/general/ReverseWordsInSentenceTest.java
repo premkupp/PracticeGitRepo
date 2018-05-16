@@ -1,6 +1,8 @@
-package premkupp.practice.datastructure;
+package premkupp.practice.general;
 
 import java.io.PrintStream;
+
+import premkupp.practice.datastructure.BasicStack;
 
 public class ReverseWordsInSentenceTest
 {
@@ -16,7 +18,7 @@ public class ReverseWordsInSentenceTest
     for (int i = 0; i < str.length(); i++) {
       System.out.print(c.pop());
     }
-    char[] strrev = new char['?'];
+    char[] strrev = new char[str.length()];
     for (int i = 0; i < str.length(); i++) {
       strrev[i] = str.charAt(str.length() - 1 - i);
     }
@@ -27,7 +29,7 @@ public class ReverseWordsInSentenceTest
       s.push(splitted[i]);
     }
     for (int i = 0; i < splitted.length; i++) {
-      System.out.println((String)s.pop());
+      System.out.print((String)s.pop() + " ");
     }
   }
   

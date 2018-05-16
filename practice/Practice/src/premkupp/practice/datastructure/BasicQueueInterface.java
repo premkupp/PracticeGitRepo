@@ -2,8 +2,8 @@ package premkupp.practice.datastructure;
 
 public interface BasicQueueInterface<T>
 {
-	public void enqueue(T paramT);
+	public void enqueue(T param);
 	public T dequeue();
-	public boolean search(T paramT);
-	public T access(T paramT);
+	public boolean search(T param);
+	public T access(T param);
 }
