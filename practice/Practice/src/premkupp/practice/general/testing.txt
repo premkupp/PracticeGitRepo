@@ -4,3 +4,4 @@ california
 new york
 dayton
 bellevue
+seattle
